@@ -31,12 +31,22 @@
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
-      gap: 20px;
+      gap: 40px;
+
+      @media (max-width: $laptops) {
+        gap: 20px;
+      }
 
       .hero-title {
         color: $black;
         font-size: 5vw;
         line-height: 70px;
+
+        @media screen and (min-width: $laptops) {
+          line-height: 70px;
+          font-size: 65px;
+        }
+
         @media screen and (max-width: $mobile) {
           width: 80%;
         }
@@ -49,7 +59,7 @@
         }
 
         @media screen and (max-width: $mobile) {
-          font-size: 30px;
+          font-size: 40px;
           line-height: 50px;
         }
 
