@@ -8,3 +8,19 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  height: 10px; /* Height of the scrollbar (horizontal scrollbars) */
+}
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background of the scrollbar track */
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: $blue; /* Color of the scrollbar thumb */
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb when hovered */
+}
