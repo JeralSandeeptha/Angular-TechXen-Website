@@ -3,10 +3,12 @@ import { UpArrowComponent } from "../up-arrow/up-arrow.component";
 import { ServiceCardComponent } from "../service-card/service-card.component";
 import { Service } from '../../../../typescript/interfaces/models.types';
 import { SectionTitleComponent } from "../section-title/section-title.component";
+import { FooterComponent } from "../footer/footer.component";
+import { FooterUpperComponent } from "../footer-upper/footer-upper.component";
 
 @Component({
   selector: 'app-services',
-  imports: [ServiceCardComponent, SectionTitleComponent],
+  imports: [ServiceCardComponent, SectionTitleComponent, FooterComponent, FooterUpperComponent],
   templateUrl: './services.component.html',
   styleUrl: './services.component.scss'
 })
