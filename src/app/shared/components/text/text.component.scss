@@ -1,0 +1,12 @@
+@import '../../../../assets/styles/loader';
+
+.text {
+  color: $gray;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+
+  @media screen and (max-width: $mobile-portrait) {
+    font-size: 12px;
+  }
+}
