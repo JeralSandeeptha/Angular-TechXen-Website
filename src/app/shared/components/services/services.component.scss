@@ -21,24 +21,7 @@
       justify-content: center;
       flex-direction: column;
       margin-bottom: 30px;
-
-      .header-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        margin-bottom: 20px;
-
-        .logo {
-
-        }
-
-        .header-text {
-          color: $blue;
-          font-size: 16px;
-        }
-      }
-
+      
       .services-title {
         color: $black;
         font-size: 40px;

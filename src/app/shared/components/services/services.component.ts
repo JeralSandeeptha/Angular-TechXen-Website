@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { UpArrowComponent } from "../up-arrow/up-arrow.component";
 import { ServiceCardComponent } from "../service-card/service-card.component";
 import { Service } from '../../../../typescript/interfaces/models.types';
+import { SectionTitleComponent } from "../section-title/section-title.component";
 
 @Component({
   selector: 'app-services',
-  imports: [ServiceCardComponent],
+  imports: [ServiceCardComponent, SectionTitleComponent],
   templateUrl: './services.component.html',
   styleUrl: './services.component.scss'
 })
