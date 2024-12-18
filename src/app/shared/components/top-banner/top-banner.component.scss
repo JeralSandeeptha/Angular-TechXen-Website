@@ -1,0 +1,16 @@
+@import '../../../../assets/styles/loader';
+
+.top-banner {
+  width: 100%;
+  min-height: 50px;
+  background-color: $blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .top-banner-text {
+    color: $white;
+    font-family: $primary-font;
+    font-size: 15px;
+  }
+}

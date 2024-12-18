@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TopBannerComponent } from './top-banner/top-banner.component';
 
 
 
@@ -7,6 +8,7 @@ import { CommonModule } from '@angular/common';
   declarations: [],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: []
 })
 export class ComponentsModule { }
